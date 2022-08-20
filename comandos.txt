@@ -1,0 +1,14 @@
+git --version
+git init //Iniciar git
+git status // estado de los archivos en la carpeta
+git add nombrearchivo.extensionarchivo //añadir archivos al repositorio
+git commit -m "descripcion del commit" //Añade los archivos al control de versiones
+git config -l //ver la configuracion de git
+git log //ver los commits realizados
+git restore nombrearchivo.extensionarchivo// restaurar el archivo a la version del commit anterior
+git reset id_commit// elimina todos los commit despues del commit seleccionado
+git branch //ver las ramas del repositorio
+git checkout -b nombre_branch //git checkout para cambiar de rama -b para crear una nueva 
+git remote add origin "https://github.com/juanquintero97/prueba_git.git" //conectar a repositorio remoto
+git push -u origin branch_name // enviar una rama del repositorio local al repositorio remoto
+git merge name_branch //combinar 2 ramas
