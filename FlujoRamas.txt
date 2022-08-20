@@ -1,0 +1,8 @@
+El flujo general de Gitflow es el siguiente:
+Se crea una rama develop a partir de main.
+Se crea una rama release a partir de la develop.
+Se crean ramas feature a partir de la develop.
+Cuando se termina una rama feature, se fusiona en la rama develop.
+Cuando la rama release está lista, se fusiona en las ramas develop y main.
+Si se detecta un problema en main, se crea una rama hotfix a partir de main.
+Una vez terminada la rama hotfix, esta se fusiona tanto en develop como en main.
