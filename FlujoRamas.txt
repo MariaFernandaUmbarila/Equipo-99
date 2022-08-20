@@ -1,5 +1,4 @@
 El flujo general de Gitflow es el siguiente:
-
 Se crea una rama develop a partir de main.
 Se crea una rama release a partir de la develop.
 Se crean ramas feature a partir de la develop.
